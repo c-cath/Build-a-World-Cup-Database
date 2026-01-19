@@ -3,7 +3,7 @@
 A PostgreSQL database project modeling FIFA World Cup tournaments.  
 Based on FreeCodeCamp's **Relational Database Project**.
 
-This project also includes **Bash scripting** to automate data insertion into the database.
+This project uses **Bash scripting** and a **CSV data source** to automate database setup and query execution.
 
 ---
 
@@ -13,8 +13,9 @@ This project also includes **Bash scripting** to automate data insertion into th
 - Tracks **winners, scores, and rounds**
 - Enforces **data integrity** with primary and foreign keys
 - Supports **aggregate queries** with `SUM`, `COUNT`, `AVG`, and `GROUP BY`
-- Includes a **SQL dump** for easy setup
-- Automates data import using a **Bash script**
+- Uses **CSV input** (`games.csv`) for populating the database
+- Automates data import with **Bash scripts**
+- Runs example queries automatically using **queries.sh**
 
 ---
 
